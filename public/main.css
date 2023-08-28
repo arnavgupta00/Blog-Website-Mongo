@@ -1,0 +1,126 @@
+:root {
+    --bg: #648f84;
+    --bg_s: transparent;
+    --text: #C9F658;
+}
+
+*{
+    margin: 0%;
+}
+html{
+    background-color: var(--bg);
+}
+
+h1{
+    margin: 1vw;
+    font-family: 'Oswald', sans-serif;
+
+}
+h1 a{
+    color: var(--text);
+    text-decoration:none;
+}
+button:hover{
+    
+    opacity: 0.5;
+}
+h1 a:hover{
+    opacity: 0.5;
+
+}
+p{
+    margin: 1vw;
+    font-family: Verdana, sans-serif;
+}
+p a{
+    color: var(--text);
+}
+
+/*NAVBAR*/
+
+.navbar{
+    display: flex;
+    background-color: var(--bg_s);
+    color: var(--text);
+    width:98.7vw;
+    height:10vh;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.button_t{
+    background-color: transparent;
+    border: transparent;
+    font-size: 150%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--text);
+
+}
+.home{
+    margin-right: 75vw;
+
+}
+.clicked{
+    opacity: 0.5;
+}
+
+/*NAVBAR OVER*/
+.main{
+    display: flex;
+    flex-wrap:wrap-reverse;
+
+}
+.post{
+    width: 95vw;
+    height: 10vw;
+    border:var(--text) solid 3px;
+    margin: 3vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px;
+    color: #4477CE;
+}
+
+.post h1{
+    margin: 1vw;
+    font-family: 'Oswald', sans-serif;
+
+}
+.post p{
+    color: var(--text);
+    margin: 1vw;
+    font-family: Verdana, sans-serif;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7vh;
+    justify-content: center;
+}
+input{
+    
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    margin-bottom:5vh ;
+    height: 8vh;
+    width: 70vw;
+    border: var(--text) solid 3px;
+    border-radius: 15px;
+    color: #4477CE;
+    font-family: Verdana,sans-serif;
+    text-align: top;
+    padding-left: 1vw;
+
+}
+.contentBox{
+    
+    padding-bottom: 30vh;
+
+}
+.Compose_b{
+    color: var(--text);
+    font-family: 'Tektur', cursive;
+
+}
