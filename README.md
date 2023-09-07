@@ -1,5 +1,7 @@
 # Blog-Website-Mongo
 
+This is a blog website which stores it's data in MongoDB format and backend is done in Node..
+
 requirements -
 
 install Node (for npm) and MongoDB
